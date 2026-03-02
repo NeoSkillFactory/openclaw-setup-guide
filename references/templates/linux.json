@@ -1,0 +1,9 @@
+{
+  "version": "1.0.0",
+  "environment": "linux",
+  "settings": {
+    "autoUpdate": true,
+    "telemetry": false,
+    "shell": "bash"
+  }
+}
