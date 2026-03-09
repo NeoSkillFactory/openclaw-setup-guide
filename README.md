@@ -2,20 +2,38 @@
 
 ![Audit](https://img.shields.io/badge/audit%3A%20PASS-brightgreen) ![License](https://img.shields.io/badge/license-MIT-blue) ![OpenClaw](https://img.shields.io/badge/OpenClaw-skill-orange)
 
-> A skill that guides users through OpenClaw setup with interactive, step-by-step instructions to solve setup barriers for non-technical users
+> Interactive step-by-step setup assistant for OpenClaw with automated configuration and error handling.
 
-I don't have access to your previous conversation or context. Could you please tell me what you were working on or what task you'd like me to continue with?
+## Features
 
-## OpenClaw Marketplace
+- Interactive prompts guiding users through each setup step
+- Automatic system detection (OS, dependencies, environment)
+- Configuration file generation from validated templates
+- Contextual troubleshooting guidance during setup
+- Setup validation and issue detection
+- Setup report and documentation generation
 
-This skill is available on [ClawHub](https://clawhub.ai) — the OpenClaw skill marketplace.
-Install it in any OpenClaw agent workspace with:
+## Usage
 
 ```bash
-clawhub install openclaw-setup-guide
+# Interactive setup wizard
+node scripts/cli-interface.js
+
+# Non-interactive setup with defaults
+node scripts/cli-interface.js --non-interactive
+
+# Validate an existing setup
+node scripts/cli-interface.js --validate-only
+
+# Detect system info
+node scripts/cli-interface.js --detect-only
 ```
 
-**Recommended price when commercial:** $29 USD
+## GitHub
+
+Source code: [github.com/NeoSkillFactory/openclaw-setup-guide](https://github.com/NeoSkillFactory/openclaw-setup-guide)
+
+**Price suggestion:** $29 USD
 
 ## License
 
