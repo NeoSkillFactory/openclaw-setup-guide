@@ -33,8 +33,6 @@ node scripts/cli-interface.js --detect-only
 
 Source code: [github.com/NeoSkillFactory/openclaw-setup-guide](https://github.com/NeoSkillFactory/openclaw-setup-guide)
 
-**Price suggestion:** $29 USD
-
 ## License
 
 MIT © NeoSkillFactory
